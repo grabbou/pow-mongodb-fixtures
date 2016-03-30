@@ -4,7 +4,7 @@ var fs       = require('fs'),
     path     = require('path'),
     mongo    = require('mongodb'),
     ObjectID = mongo.ObjectId,
-    async    = require('async'),
+    async    = require('lodash'),
     _        = require('underscore'),
     basePath = path.dirname(module.parent.filename);
 
